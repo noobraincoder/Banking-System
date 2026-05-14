@@ -66,7 +66,7 @@ int main(){
 	
 		switch (opcion_menu) {
 			case 1:
-				registro_cliente()
+				registro_cliente();
 				break;
 			case 2:
 			
@@ -124,8 +124,8 @@ void registro_cliente(){
 	cliente_nuevo.rfc = rfc_cliente_nuevo;
 	
 	cout << "\nSaldo actual del cliente nuevo: ";
-	cin >> saldo_cliente_nuevo;
-	cliente_nuevo.saldo = saldo_actual_cliente_nuevo;
+	cin >> saldo_actual_cliente_nuevo;
+	cliente_nuevo.saldo_actual = saldo_actual_cliente_nuevo;
 	
 	cout << "\nMonto del cliente nuevo: ";
 	cin >> monto_cliente_nuevo;
